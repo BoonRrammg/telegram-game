@@ -459,7 +459,7 @@ Boss4 = mob(20000, 120)
 Boss4.no_magic = True
 Boss4.drop = [1, 1, 1, 1, 1]
 
-TOKEN = '6075009729:AAELCItgPMQ5FfNkHbTnxx7ETxBkwcWaSPI'
+TOKEN = 'secret'
 bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
